@@ -7,7 +7,6 @@ def calculate_triangle_area(a, b, c):
     area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
     
     return area
-
 a = float(input('Enter the length of the first side: '))
 b = float(input('Enter the length of the second side: '))
 c = float(input('Enter the length of the third side: '))
